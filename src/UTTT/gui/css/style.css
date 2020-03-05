@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister');
-
+/**
+ *
+ * @author PC
+ */
 .tictaccell{
     -fx-font-size: 24px;
     -fx-text-fill: white;
@@ -38,13 +40,13 @@
 }
 
 .game-font{
-    -fx-font-family: 'Love Ya Like A Sister', cursive;
+    -fx-font-family: cursive;
 }
 .winner-text{
     -fx-background-color: rgba(73, 117, 215, 0.18);
     -fx-font-size: 45px;
     -fx-text-fill: lightgoldenrodyellow;
-    -fx-font-family: 'Love Ya Like A Sister', cursive;
+    -fx-font-family: cursive;
 }
 .root{
     -icons-color: white;
