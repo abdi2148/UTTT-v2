@@ -9,14 +9,14 @@ import UTTT.bll.move.Move;
  *
  * @author PC
  */
-public class ObeyAuthority implements IBot {
+public class CookieAds implements IBot {
 
     private static final String BOTNAME = "Obey Bot";
     // Moves {row, col} in order of preferences. {0, 0} at top-left corner
     protected int[][] preferredMoves = {
             {1, 1}, //Center
-            {0, 0}, {2, 2}, {0, 2}, {2, 0},  //Corners ordered across
-            {0, 1}, {2, 1}, {1, 0}, {1, 2}}; //Outer Middles ordered across
+            {0, 0}, {2, 2}, {0, 2}, {2, 0},  
+            {0, 1}, {2, 1}, {1, 0}, {1, 2}}; 
 
     /**
      * Makes a turn. Edit this method to make your bot smarter.
@@ -29,7 +29,7 @@ public class ObeyAuthority implements IBot {
     @Override
     public IMove doMove(IGameState state) {
 
-        //Find macroboard to play in
+        
         for (int[] move : preferredMoves)
         {
             if(state.getField().getMacroboard()[move[0]][move[1]].equals(IField.AVAILABLE_FIELD))
@@ -47,7 +47,7 @@ public class ObeyAuthority implements IBot {
             }
         }
 
-        //NOTE: Something failed, just take the first available move I guess!
+        
         return state.getField().getAvailableMoves().get(0);
     }
 

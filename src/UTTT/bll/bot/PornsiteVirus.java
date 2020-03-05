@@ -26,7 +26,7 @@ public class PornsiteVirus implements IBot {
         List<IMove> moves = state.getField().getAvailableMoves();
 
         if (moves.size() > 0) {
-            return moves.get(rand.nextInt(moves.size())); /* get random move from available moves */
+            return moves.get(rand.nextInt(moves.size())); // random moves from available tiles
         }
 
         return null;
