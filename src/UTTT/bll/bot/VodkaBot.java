@@ -9,11 +9,11 @@ package UTTT.bll.bot;
  *
  * @author PC
  */
-public class DrunkenBot extends LocalPrioritisedListBot {
-    private static final String BOTNAME="Drunken Bot";
+public class VodkaBot extends ObeyAuthority {
+    private static final String BOTNAME="Vodka Bot";
     
     // Drunken bot is worse than random but wins against it's super class
-    public DrunkenBot() {
+    public VodkaBot() {
         int[][] pref = {
             {0, 0}, {2, 2}, {0, 2}, {2, 0},  //Corners ordered across
             {0, 1}, {2, 1}, {1, 0}, {1, 2}, //Outer Middles ordered across

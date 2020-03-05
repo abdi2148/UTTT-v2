@@ -10,8 +10,8 @@ import java.util.Random;
  *
  * @author PC
  */
-public class LordBagelMuncher implements IBot{
-    private static final String BOTNAME = "Lord Bagel Muncher";
+public class WW3Draft implements IBot{
+    private static final String BOTNAME = "WW3 Bot";
 
     @Override
     public IMove doMove(IGameState state) {

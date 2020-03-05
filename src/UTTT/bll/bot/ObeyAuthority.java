@@ -9,9 +9,9 @@ import UTTT.bll.move.Move;
  *
  * @author PC
  */
-public class LocalPrioritisedListBot implements IBot {
+public class ObeyAuthority implements IBot {
 
-    private static final String BOTNAME = "Local Prio ListBot";
+    private static final String BOTNAME = "Obey Bot";
     // Moves {row, col} in order of preferences. {0, 0} at top-left corner
     protected int[][] preferredMoves = {
             {1, 1}, //Center

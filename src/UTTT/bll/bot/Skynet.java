@@ -10,8 +10,8 @@ import java.util.Random;
  *
  * @author PC
  */
-public class FungusFoot implements IBot{
-    private static final String BOTNAME = "Fungus foot";
+public class Skynet implements IBot{
+    private static final String BOTNAME = "Skynet";
 
     @Override
     public IMove doMove(IGameState state) {

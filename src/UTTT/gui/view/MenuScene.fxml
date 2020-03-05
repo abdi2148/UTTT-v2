@@ -160,7 +160,7 @@
                   <Font size="25.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" text="Nerds" GridPane.columnIndex="7">
+            <Label alignment="CENTER" text="Nerds" GridPane.columnIndex="6" GridPane.rowIndex="1">
                <font>
                   <Font size="25.0" />
                </font>
