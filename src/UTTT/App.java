@@ -17,9 +17,9 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/UTTT/gui/view/MenuScene.fxml"));
-        primaryStage.setTitle("Terminator vs Human");
+        primaryStage.setTitle("Battery vs USB");
         primaryStage.setScene(new Scene(root, 900, 700));
-        primaryStage.setTitle("Terminator vs Human");
+        primaryStage.setTitle("Battery vs USB");
         primaryStage.show();
     }
 

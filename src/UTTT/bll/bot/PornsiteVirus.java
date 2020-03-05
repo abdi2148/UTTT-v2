@@ -10,9 +10,9 @@ import java.util.Random;
  *
  * @author PC
  */
-public class RandomBot implements IBot {
+public class PornsiteVirus implements IBot {
 
-    private static final String BOTNAME = "Random Dude";
+    private static final String BOTNAME = "Pornsite Virus";
     private Random rand = new Random();
 
     /**
